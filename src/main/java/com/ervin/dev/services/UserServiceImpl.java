@@ -3,10 +3,12 @@ package com.ervin.dev.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ervin.dev.models.dao.IUserDao;
 import com.ervin.dev.models.entity.User;
 
+@Service
 public class UserServiceImpl implements IUserService {
 
 	@Autowired
